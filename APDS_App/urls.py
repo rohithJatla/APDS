@@ -34,7 +34,7 @@ urlpatterns = [
 
 ]
 
-handler404 = 'SDP2_App.views.custom_404'
+handler404 = 'APDS_App.views.custom_404'
 
 
 if settings.DEBUG:

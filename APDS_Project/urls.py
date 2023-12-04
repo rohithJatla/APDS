@@ -1,4 +1,4 @@
-"""SDP2_Project URL Configuration
+"""APDS_Project URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
@@ -20,5 +20,5 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('SDP2_App.urls')),
+    path('',include('APDS_App.urls')),
 ]
